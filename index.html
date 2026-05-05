@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Online Quiz</h1>
+    <h2 id="question"></h2>
+
+    <div class="options">
+        <button id="opt0" onclick="checkAnswer(0)"></button>
+        <button id="opt1" onclick="checkAnswer(1)"></button>
+        <button id="opt2" onclick="checkAnswer(2)"></button>
+        <button id="opt3" onclick="checkAnswer(3)"></button>
+    </div>
+
+    <button class="next-btn" onclick="nextQuestion()">Next</button>
+</div>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
